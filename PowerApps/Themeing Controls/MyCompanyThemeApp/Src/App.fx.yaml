@@ -1,0 +1,13 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Set(varGlobal,{
+            ButtonDefaults:{
+                Fill:Color.Purple,
+                BorderRadius:0,
+                BorderThickness:0,
+                HoverFill:Color.Beige,
+                HoverText:Color.Black
+            }
+        })
+
